@@ -39,23 +39,14 @@ export default {
 
 <style scoped>
 form {
-  margin: 10px;
+  @apply m-2;
+  /*margin: 10px;*/
 }
 textarea {
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 6px;
-  padding: 10px;
-  box-sizing: border-box;
-  border: 0;
-  border-radius: 20px;
+  @apply w-full max-w-full max-h-24 resize-none p-3 pl-4  box-border border rounded-2xl outline-none;
   font-family: inherit;
-  outline: none;
 }
 .error {
-  text-align: center;
-  color: #ff2a58;
-  font-size: 12px;
-  padding: 10px 0;
+  @apply text-center text-red-600 py-2;
 }
 </style>

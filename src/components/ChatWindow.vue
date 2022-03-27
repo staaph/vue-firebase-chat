@@ -43,24 +43,18 @@ export default {
 
 <style scoped>
 .chat-window {
-  background: #fafafa;
-  padding: 30px 20px;
+  @apply bg-gray-800 m-2 px-4 py-3 rounded-2xl;
 }
 .single {
-  margin: 18px 0;
+  @apply my-4 mx-0;
 }
 .created-at {
-  display: block;
-  color: #999;
-  font-size: 12px;
-  margin-bottom: 4px;
+  @apply block text-gray-400 text-xs mb-1;
 }
 .name {
-  font-weight: bold;
-  margin-right: 6px;
+  @apply font-bold mr-2 text-white;
 }
 .messages {
-  max-height: 400px;
-  overflow: auto;
+  @apply max-h-80 overflow-auto text-gray-300;
 }
 </style>

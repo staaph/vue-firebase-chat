@@ -1,8 +1,9 @@
 # chat
 
-This chat app is based on the NetNinja Udemy Tutorial
+This chat app is based on the NetNinja Udemy Tutorial.
+Wrong routes get redirected.
 
-### Language and Tools used
+## Language and Tools used
 
 <div>
 <img src="https://github.com/staaph/staaph/blob/main/img/vuejs-original.svg" title="Vue" alt="Vue" width="40" height="40"/>&nbsp;

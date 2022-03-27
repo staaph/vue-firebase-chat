@@ -1,6 +1,6 @@
 <template>
-  <div class="welcome container">
-    <p>Welcome</p>
+  <div class="welcome container my-24">
+    <p class="font-bold">Welcome</p>
     <div v-if="showLogin">
       <h2>Login</h2>
       <LoginForm @login="enterChat" />
@@ -41,33 +41,22 @@ export default {
 
 <style>
 .welcome {
-  text-align: center;
-  padding: 20px 0;
+  @apply text-center;
 }
 /* form styles */
 .welcome form {
-  width: 300px;
-  margin: 20px auto;
+  @apply w-80 mx-auto mt-4;
 }
 .welcome label {
-  display: block;
-  margin: 20px 0 10px;
+  @apply block mx-4 my-2;
 }
 .welcome input {
-  width: 100%;
-  padding: 10px;
-  border-radius: 20px;
-  border: 1px solid #eee;
-  outline: none;
-  color: #999;
-  margin: 10px auto;
+  @apply w-full p-2 pl-3 rounded-xl border-4 border-solid border-white mx-auto my-3 outline-none;
 }
 .welcome span {
-  font-weight: bold;
-  text-decoration: underline;
-  cursor: pointer;
+  @apply font-bold underline cursor-pointer;
 }
 .welcome button {
-  margin: 20px auto;
+  @apply my-5 mx-auto;
 }
 </style>
