@@ -5,7 +5,8 @@
 
 @layer base{
     body{
-        @apply bg-gray-900;
+        @apply min-h-full bg-slate-900;
+        
     }
 
     button{

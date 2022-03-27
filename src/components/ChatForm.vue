@@ -43,7 +43,7 @@ form {
   /*margin: 10px;*/
 }
 textarea {
-  @apply w-full max-w-full max-h-24 resize-none p-3 pl-4  box-border border rounded-2xl outline-none;
+  @apply w-full max-w-full bg-gray-200 max-h-24 resize-none p-3 pl-4  box-border border border-gray-200 rounded-2xl outline-none;
   font-family: inherit;
 }
 .error {

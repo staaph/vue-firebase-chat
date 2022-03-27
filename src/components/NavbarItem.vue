@@ -2,7 +2,7 @@
   <nav v-if="user">
     <div>
       <p class="my-1 mx-auto text-sm text-gray-900">
-        Hey there {{ user.displayName }}
+        Hey there, {{ user.displayName }}
       </p>
       <p class="my-1 mx-auto text-sm text-gray-900text-sm text-gray-600">
         Currently logged in as {{ user.email }}

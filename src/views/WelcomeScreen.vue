@@ -51,7 +51,7 @@ export default {
   @apply block mx-4 my-2;
 }
 .welcome input {
-  @apply w-full p-2 pl-3 rounded-xl border-4 border-solid border-white mx-auto my-3 outline-none;
+  @apply w-full p-2 pl-3 rounded-xl border-4 border-solid bg-gray-100 border-gray-100 mx-auto my-3 outline-none;
 }
 .welcome span {
   @apply font-bold underline cursor-pointer;
