@@ -1,6 +1,7 @@
 # chat
 
-This chat app is based on the NetNinja Udemy Tutorial.
+This chat app is based on the NetNinja Udemy Tutorial.\
+See <a href="https://vue-firebase-chat.vercel.app/">LIVE</a> Version
 Wrong routes get redirected.
 
 ## Language and Tools used
