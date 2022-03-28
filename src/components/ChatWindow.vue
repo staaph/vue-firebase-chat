@@ -46,7 +46,7 @@ export default {
   @apply bg-gray-800 m-2 px-4 py-3 rounded-2xl;
 }
 .single {
-  @apply my-4 mx-0;
+  @apply my-4;
 }
 .created-at {
   @apply block text-gray-400 text-xs mb-1;
@@ -55,6 +55,6 @@ export default {
   @apply font-bold mr-2 text-white;
 }
 .messages {
-  @apply max-h-80 overflow-auto text-gray-300;
+  @apply max-h-56 overflow-auto text-gray-300;
 }
 </style>
