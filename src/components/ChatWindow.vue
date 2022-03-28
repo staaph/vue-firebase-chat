@@ -55,6 +55,6 @@ export default {
   @apply font-bold mr-2 text-white;
 }
 .messages {
-  @apply max-h-56 overflow-auto text-gray-300;
+  @apply max-h-56  overflow-auto text-gray-300;
 }
 </style>
