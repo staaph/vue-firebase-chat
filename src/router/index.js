@@ -37,7 +37,7 @@ const router = createRouter({
       component: Chatroom,
       beforeEnter: requireAuth,
     },
-    { path: '/:pathMatch(.*)*', redirect: { name: 'Welcome' } },
+    { path: '/:catchAll(.*)*', redirect: { name: 'Welcome' } },
   ],
 });
 
