@@ -1,5 +1,5 @@
 {
     "rewrites": [
-      { "source": "/(.*)", "destination": "https://vue-firebase-chat.vercel.app/" }
+      { "source": "/(.*)", "destination": "/" }
     ]
   }
